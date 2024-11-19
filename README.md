@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# React Tic-Tac-Toe Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern implementation of the classic Tic-Tac-Toe game built with React. This project features multiple game modes, difficulty levels, and a scoring system.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🎮 Two Game Modes:
+  - Player vs Player (PvP)
+  - Player vs Computer (PvC)
+- 🤖 Three AI Difficulty Levels:
+  - Easy: Random moves
+  - Medium: Mix of random and strategic moves
+  - Hard: Unbeatable AI using the Minimax algorithm
+- 📊 Score Tracking System
+- 🎯 Visual feedback for winning combinations
+- 🎨 Modern and responsive design
+- ⚡ Fast and efficient performance
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 18
+- CSS3 with Flexbox and Grid
+- JavaScript ES6+
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/tictactoe.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Navigate to the project directory:
+```bash
+cd tictactoe
+```
 
-### `npm run build`
+3. Install dependencies:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Open [http://localhost:3000](http://localhost:3000) to play the game in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Play
 
-### `npm run eject`
+1. Choose your game mode (PvP or vs Computer)
+2. If playing against the computer, select the difficulty level
+3. Players take turns placing their marks (X or O) in empty squares
+4. The first player to get 3 of their marks in a row (horizontally, vertically, or diagonally) wins
+5. If all squares are filled and no player has won, the game is a draw
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Game Controls
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Click on any empty square to place your mark
+- Use the "Restart Game" button to start a new game
+- Use the "Reset Score" button to clear the scoreboard
+- Select game mode and difficulty using the dropdown menus
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technical Implementation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Uses React Hooks for state management
+- Implements the Minimax algorithm with Alpha-Beta pruning for the AI
+- Responsive design using CSS Grid and Flexbox
+- Visual feedback for winning combinations using CSS animations
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the Mozilla Public License 2.0 (MPL-2.0) - see the [LICENSE](LICENSE) file for details.
