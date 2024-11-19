@@ -210,6 +210,21 @@ function App() {
         <button onClick={resetGame}>Reiniciar Jogo</button>
         <button onClick={resetScores}>Zerar Placar</button>
       </div>
+
+      <footer className="footer">
+        <p>Desenvolvido com ❤️ por Carlos</p>
+        <p className="linkedin-invite">
+          Que tal uma partida? Me encontre no{' '}
+          <a 
+            href="https://www.linkedin.com/in/seu-linkedin" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="linkedin-link"
+          >
+            LinkedIn <span className="emoji">🎮</span>
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }

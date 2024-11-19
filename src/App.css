@@ -113,3 +113,43 @@ button:disabled {
   background-color: #cccccc;
   cursor: not-allowed;
 }
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.linkedin-invite {
+  font-size: 1.1em;
+  color: #444;
+}
+
+.linkedin-link {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+  color: #00a0dc;
+}
+
+.linkedin-link .emoji {
+  font-size: 1.2em;
+  vertical-align: middle;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.linkedin-link:hover .emoji {
+  transform: rotate(15deg) scale(1.2);
+}
