@@ -26,7 +26,7 @@ A modern implementation of the classic Tic-Tac-Toe game built with React. This p
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tictactoe.git
+git clone https://github.com/carloskvasir/tictactoe.git
 ```
 
 2. Navigate to the project directory:
@@ -75,3 +75,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the Mozilla Public License 2.0 (MPL-2.0) - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Developed by [Carlos Kvasir](https://github.com/carloskvasir)  
+📧 git@carloskvasir.dev
+
+---
+🎮 [Play Now](http://localhost:3000) | 💻 [GitHub](https://github.com/carloskvasir) | 💼 [LinkedIn](https://www.linkedin.com/in/carloskvasir/)

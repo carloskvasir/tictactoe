@@ -1,6 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tic Tac Toe",
+  "name": "React Tic Tac Toe Game",
+  "description": "A modern implementation of the classic Tic-Tac-Toe game with multiple game modes and AI",
+  "version": "1.0.0",
+  "author": "Carlos Kvasir",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +24,8 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "categories": ["games", "entertainment"],
+  "lang": "en-US"
 }
